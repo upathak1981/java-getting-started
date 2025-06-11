@@ -44,7 +44,7 @@ public class GettingStartedApplication {
 
         } catch (Throwable t) {
             model.put("message", t.getMessage());
-            return "error";
+            return "exception";
         }
     }
 
